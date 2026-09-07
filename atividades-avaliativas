@@ -1,0 +1,30 @@
+# 📝 Atividades Avaliativas - Cadastro de Usuários
+
+Este diretório contém a resolução das atividades práticas avaliativas desenvolvidas para consolidar os conceitos de **lógica de programação**, **manipulação de estruturas homogêneas (vetores/arrays)** e **gerenciamento de memória**.
+
+As soluções foram implementadas em **Python** e posteriormente refatoradas em **Java** para praticar a transição entre linguagens de tipagem dinâmica e forte.
+
+---
+
+## 📌 Progresso das Etapas
+
+| Etapa | Descrição | Python | Java |
+| :---: | :--- | :---: | :---: |
+| **01** | Construção do menu interativo e cadastro dinâmico de usuários. | ✅ | ✅ |
+| **02** | Refatoração para uso de vetores com tamanho fixo ($n$) definido pelo usuário e validação de limite. | ✅ | ✅ |
+
+---
+
+## 🛠️ Detalhamento Técnico
+
+### **Atividade 01**
+* **Objetivo:** Criar um sistema base de cadastro contendo Nome e Idade, além da exibição de todos os registros armazenados.
+* **Conceitos Aplicados:** Estruturas de repetição (`while`), estruturas condicionais (`if/else`), menus interativos e adição dinâmica de elementos.
+
+### **Atividade 02 (Complemento)**
+* **Objetivo:** Evoluir a Atividade 01 para trabalhar com alocação estática de memória.
+* **Conceitos Aplicados:**
+  * Solicitação do tamanho total do vetor ($n$) antes da inicialização do sistema.
+  * Alocação de memória baseada na entrada do usuário.
+  * Validação para prevenir estouro de capacidade do vetor (`ArrayIndexOutOfBoundsException`).
+  * Atribuição direta por índice (`vetor[posicao]`).
